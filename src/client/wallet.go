@@ -11,9 +11,8 @@ import (
 	"io/ioutil"
 	"os"
 	"strconv"
+	"threshwallet/src/library"
 	"time"
-
-	"library"
 
 	"github.com/xandout/gorpl/action"
 )

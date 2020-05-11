@@ -8,8 +8,7 @@ package client
 
 import (
 	"fmt"
-
-	"library"
+	"threshwallet/src/library"
 
 	"github.com/xandout/gorpl"
 )

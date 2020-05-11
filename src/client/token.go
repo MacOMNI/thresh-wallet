@@ -7,7 +7,7 @@
 package client
 
 import (
-	"library"
+	"threshwallet/src/library"
 
 	"github.com/xandout/gorpl/action"
 )
