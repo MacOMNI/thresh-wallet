@@ -9,10 +9,10 @@ package library
 import (
 	"fmt"
 	"net/http"
+	"threshwallet/src/proto"
 
 	"crypto/sha256"
-
-	"proto"
+	//"proto"
 )
 
 // WalletBackupResponse --

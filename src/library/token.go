@@ -9,8 +9,8 @@ package library
 import (
 	"fmt"
 	"net/http"
-
-	"proto"
+	"threshwallet/src/proto"
+	//"proto"
 )
 
 // VCodeRequest --

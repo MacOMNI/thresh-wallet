@@ -12,8 +12,9 @@ import (
 	"fmt"
 	"net/http"
 	"strings"
+	"threshwallet/src/proto"
 
-	"proto"
+	//"proto"
 
 	"github.com/keyfuse/tokucore/network"
 	"github.com/keyfuse/tokucore/xbase"
