@@ -11,8 +11,7 @@ import (
 	"fmt"
 	"os"
 	"runtime"
-
-	"client"
+	"threshwallet/src/client"
 )
 
 var (

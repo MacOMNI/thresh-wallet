@@ -14,9 +14,8 @@ import (
 	"os/signal"
 	"runtime"
 	"syscall"
-
-	"server"
-	"xlog"
+	"threshwallet/src/server"
+	"threshwallet/src/xlog"
 )
 
 var (
