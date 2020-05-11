@@ -25,6 +25,7 @@ func TestRSAKey(t *testing.T) {
 		t.Logf("body:%+v", body)
 
 		rsp := &RSAKeyResponse{}
+		fmt.Println(rsp)
 		unmarshal(body, rsp)
 		assert.Equal(t, 200, rsp.Code)
 		prvkey = rsp.PrvKey
@@ -32,9 +33,12 @@ func TestRSAKey(t *testing.T) {
 
 	// Pub.
 	{
+		fmt.Println(prvkey)
+
 		body := GetRSAPubKey(prvkey)
 		rsp := &RSAPubKeyResponse{}
 		unmarshal(body, rsp)
+		fmt.Println(rsp)
 		assert.Equal(t, 200, rsp.Code)
 	}
 
@@ -45,6 +49,7 @@ func TestRSAKey(t *testing.T) {
 
 		rsp := &RSAPrvKeyHashResponse{}
 		unmarshal(body, rsp)
+		fmt.Println(rsp)
 		assert.Equal(t, 200, rsp.Code)
 	}
 
@@ -55,6 +60,7 @@ func TestRSAKey(t *testing.T) {
 
 		rsp := &RSAEncryptResponse{}
 		unmarshal(body, rsp)
+		fmt.Println(rsp)
 		assert.Equal(t, 200, rsp.Code)
 		encrypted = rsp.CipherText
 	}
@@ -66,6 +72,7 @@ func TestRSAKey(t *testing.T) {
 
 		rsp := &RSADecryptResponse{}
 		unmarshal(body, rsp)
+		fmt.Println(rsp)
 		assert.Equal(t, 200, rsp.Code)
 	}
 
@@ -77,6 +84,7 @@ func TestRSAKey(t *testing.T) {
 
 		rsp := &RSASignResponse{}
 		unmarshal(body, rsp)
+		fmt.Println(rsp)
 		assert.Equal(t, 200, rsp.Code)
 	}
 }

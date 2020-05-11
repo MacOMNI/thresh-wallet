@@ -7,6 +7,7 @@
 package library
 
 import (
+	"fmt"
 	"testing"
 
 	//"server"
@@ -25,6 +26,7 @@ func TestWalletCheck(t *testing.T) {
 	{
 		body := APIGetToken(ts.URL, mockMobile1, "vcode")
 		rsp := &TokenResponse{}
+		fmt.Println(rsp)
 		unmarshal(body, rsp)
 		assert.Equal(t, 200, rsp.Code)
 		token = rsp.Token
@@ -33,6 +35,7 @@ func TestWalletCheck(t *testing.T) {
 	body := APIWalletCheck(ts.URL, token)
 	rsp := &WalletCheckResponse{}
 	unmarshal(body, rsp)
+	fmt.Println(rsp)
 
 	t.Logf("%+v", body)
 	assert.Equal(t, 200, rsp.Code)
@@ -57,6 +60,7 @@ func TestWalletCreate(t *testing.T) {
 
 	body := APIWalletCreate(ts.URL, token, mockMasterPrvKey)
 	rsp := &WalletCreateResponse{}
+	fmt.Println(rsp)
 	unmarshal(body, rsp)
 
 	t.Logf("%+v", body)
@@ -177,6 +181,7 @@ func TestAPIEcdsaNewAddress(t *testing.T) {
 		body := APIWalletNewAddress(ts.URL, token)
 		rsp := &WalletNewAddressResponse{}
 		unmarshal(body, rsp)
+		fmt.Println(rsp)
 
 		t.Logf("%+v", body)
 		assert.Equal(t, 200, rsp.Code)
