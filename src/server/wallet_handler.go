@@ -10,7 +10,7 @@ import (
 	"encoding/json"
 	"net/http"
 
-	"proto"
+	"threshwallet/src/proto"
 )
 
 func (h *Handler) walletNewAddress(w http.ResponseWriter, r *http.Request) {

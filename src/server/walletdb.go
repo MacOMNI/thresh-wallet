@@ -11,7 +11,7 @@ import (
 	"sync"
 	"time"
 
-	"xlog"
+	"threshwallet/src/xlog"
 
 	"github.com/keyfuse/tokucore/network"
 	"github.com/keyfuse/tokucore/xcore/bip32"

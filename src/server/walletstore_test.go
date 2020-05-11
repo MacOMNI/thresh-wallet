@@ -9,8 +9,7 @@ package server
 import (
 	"os"
 	"testing"
-
-	"xlog"
+	"threshwallet/src/xlog"
 
 	"github.com/keyfuse/tokucore/network"
 

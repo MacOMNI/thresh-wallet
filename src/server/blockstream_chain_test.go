@@ -8,8 +8,7 @@ package server
 
 import (
 	"testing"
-
-	"xlog"
+	"threshwallet/src/xlog"
 
 	"github.com/stretchr/testify/assert"
 )

@@ -8,8 +8,7 @@ package server
 
 import (
 	"testing"
-
-	"proto"
+	"threshwallet/src/proto"
 
 	"github.com/keyfuse/tokucore/xcore/bip32"
 	"github.com/keyfuse/tokucore/xcrypto"

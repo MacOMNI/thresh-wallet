@@ -14,7 +14,7 @@ import (
 	"net/http"
 	"time"
 
-	"proto"
+	"threshwallet/src/proto"
 
 	jwt "github.com/dgrijalva/jwt-go"
 )

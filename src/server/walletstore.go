@@ -14,7 +14,7 @@ import (
 	"strings"
 	"sync"
 
-	"xlog"
+	"threshwallet/src/xlog"
 
 	"github.com/keyfuse/tokucore/network"
 )

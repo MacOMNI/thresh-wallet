@@ -12,9 +12,9 @@ import (
 	"encoding/json"
 	"fmt"
 	"net/http"
+	"threshwallet/src/proto"
 	"time"
-
-	"proto"
+	//	"proto"
 )
 
 func (h *Handler) backupVCode(w http.ResponseWriter, r *http.Request) {

@@ -10,7 +10,7 @@ import (
 	"sync"
 	"time"
 
-	"xlog"
+	"threshwallet/src/xlog"
 )
 
 // WalletSyncer --

@@ -10,7 +10,7 @@ import (
 	"net/http"
 	"time"
 
-	"proto"
+	"threshwallet/src/proto"
 )
 
 func (h *Handler) serverInfo(w http.ResponseWriter, r *http.Request) {

@@ -12,7 +12,7 @@ import (
 	"sync"
 	"time"
 
-	"xlog"
+	"threshwallet/src/xlog"
 )
 
 type vcode struct {

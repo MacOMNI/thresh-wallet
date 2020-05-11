@@ -6,7 +6,7 @@ import (
 	"os"
 	"time"
 
-	"xlog"
+	"threshwallet/src/xlog"
 )
 
 var (

@@ -12,7 +12,7 @@ import (
 	"net/mail"
 	"strings"
 
-	"xlog"
+	"threshwallet/src/xlog"
 
 	"github.com/txthinking/mailx"
 )

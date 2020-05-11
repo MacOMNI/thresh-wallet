@@ -10,8 +10,7 @@ import (
 	"os"
 	"sync"
 	"testing"
-
-	"xlog"
+	"threshwallet/src/xlog"
 
 	"github.com/fortytw2/leaktest"
 	"github.com/stretchr/testify/assert"

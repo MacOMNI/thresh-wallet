@@ -7,9 +7,6 @@
 package server
 
 import (
-	"fmt"
-	"testing"
-
 	"crypto"
 	"crypto/rand"
 	"crypto/rsa"
@@ -17,8 +14,11 @@ import (
 	"crypto/x509"
 	"encoding/hex"
 	"encoding/pem"
+	"fmt"
+	"threshwallet/src/proto"
 
-	"proto"
+	//"proto"
+	"testing"
 
 	"github.com/stretchr/testify/assert"
 )

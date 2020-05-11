@@ -10,7 +10,7 @@ import (
 	"encoding/json"
 	"net/http"
 
-	"proto"
+	"threshwallet/src/proto"
 )
 
 // ecdsaR2 -- the handler of creating R2 of two party.

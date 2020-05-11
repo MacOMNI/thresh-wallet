@@ -8,8 +8,7 @@ package library
 
 import (
 	"testing"
-
-	"server"
+	"threshwallet/src/server"
 
 	"github.com/stretchr/testify/assert"
 )

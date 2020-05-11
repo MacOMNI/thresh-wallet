@@ -7,7 +7,7 @@
 package server
 
 import (
-	"xlog"
+	"threshwallet/src/xlog"
 )
 
 const (

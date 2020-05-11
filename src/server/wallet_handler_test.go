@@ -10,8 +10,7 @@ import (
 	"crypto/sha256"
 	"fmt"
 	"testing"
-
-	"proto"
+	"threshwallet/src/proto"
 
 	"github.com/keyfuse/tokucore/network"
 	"github.com/keyfuse/tokucore/xcore/bip32"
